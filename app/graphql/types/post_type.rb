@@ -14,8 +14,9 @@ module Types
 
   class PostInputType < GraphQL::Schema::InputObject
     graphql_name "PostInputType"
-    description 'All attributes to create a post'
+    description 'All attributes to create/update a post'
 
+    argument :id, ID, required: false
     argument :title, String, required: false
     argument :content, String, required: false
   end
