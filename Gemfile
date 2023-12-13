@@ -61,6 +61,8 @@ group :development do
   gem 'factory_bot_rails'
   gem "graphql", "~> 2.1"
   gem "capybara"
+  gem 'simplecov'
+  gem 'shoulda-matchers'
 
   # Add speed badges [https://github.com/MiniProfiler/rack-mini-profiler]
   # gem "rack-mini-profiler"
